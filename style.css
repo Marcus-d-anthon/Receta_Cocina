@@ -1,0 +1,32 @@
+* {
+    background-color: #e4d0bc;
+    padding: 0px 10px 0px 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    border: 10px solid #2c3e50;
+    width: fit-content; 
+}
+
+ol, ul {
+    border: 10px solid #2c3e50;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: fit-content;  
+    list-style-position: inside;
+}
+
+li {
+    padding: 5px 10px;
+}
+
+.contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
